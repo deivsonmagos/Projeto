@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu {
+    background-color: #94ffffa2;
+    text-align: left;
+    border:none;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px 40px 0px 15px;
+    font-size: 1.5em;
+
+}
+
+#menu li {
+    height:1px; 
+    padding: 3px 1px; 
+    display: inline;
+  
+    
+}
+#menu li a {
+    height:1px; 
+    padding: 3px 1px; 
+    margin:0;
+    text-decoration: none;
+    
+    
+}
+#menu li a:hover{
+    border-radius: 3px;
+    color: white;
+    background-color:#4627e073; 
+    box-shadow: 1px 2px 1px 1px;
+   
+}
+
+
+body { 
+    font-family:Arial, Helvetica, sans-serif;
+    
+ }
+
+header {
+    background-color: white;
+    text-align: center;
+    min-height: 150px;
+
+}
+
+
+header h1 {
+    font-family:'Kaushan Script', cursive;
+    color: rgb(55, 87, 129);
+    margin: auto;
+    padding: 10px;
+    font-size: 3em;
+    max-width: 500px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.233);
+}
+header p {
+    font-size: 1.2em;
+    margin: auto;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.233);
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 10px;   
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+
+}
+main h2 {
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.377);
+}
+article{
+
+text-align: center;
+}
+
+ article  a{
+    text-decoration: none;
+    color: rgba(56, 56, 180, 0.932);
+}
+
+article a:hover {
+    background-color: rgba(51, 41, 139, 0.575);
+    border-radius: 5px;
+}
+
+image{
+    width: 100%;
+}
+aside{
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+aside h3{
+    text-align: left;
+    font-size: 2em;
+}
+aside p{
+    font-weight: bolder;
+    font-size: 1.2em;
+    
+}
+
+aside a{
+    text-decoration: none;
+    
+}
+
+aside a:hover {
+    background-color: rgba(39, 157, 165, 0.534);
+}
+
+footer{
+    background-color: rgba(0, 0, 255, 0.308);
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+
+.social {
+    text-align: right;
+  
+}
+.social li{
+    display: inline;
+    padding: 10px;
+    padding-left: 5px;
+    margin: auto;
+    margin-top: 3px;
+}
+              
+
